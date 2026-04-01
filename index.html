@@ -9,16 +9,15 @@
         html { scroll-behavior: smooth; }
         body { background-color: #05070a; color: #f1f5f9; }
         .hero-gradient { background: linear-gradient(135deg, #1e293b 0%, #05070a 100%); }
-        .domain-card { background: #0f172a; border: 1px solid #1e293b; transition: all 0.2s ease; }
+        .domain-card { background: #0f172a; border: 1px solid #1e293b; transition: all 0.2s ease; overflow-wrap: break-word; }
         .domain-card:hover { border-color: #3b82f6; background: #161e2d; transform: translateY(-2px); }
-        /* Prevent text overlap on tight screens */
-        .hero-title { line-height: 0.9; word-break: break-all; }
+        .hero-title { line-height: 0.9; }
     </style>
 </head>
 <body class="font-sans antialiased">
 
     <header class="hero-gradient border-b border-slate-800">
-        <div class="max-w-6xl mx-auto px-6 py-28 md:py-40 text-center">
+        <div class="max-w-6xl mx-auto px-6 py-24 md:py-40 text-center">
             <h1 class="hero-title text-[12vw] md:text-8xl font-black tracking-tighter mb-8 text-white italic">
                 ORCHESTRATOR<span class="text-blue-600">.</span>
             </h1>
@@ -38,22 +37,28 @@
 
     <main class="max-w-6xl mx-auto px-6 py-20">
         
-        <div class="mb-20">
-            <h2 class="text-xs font-black text-blue-500 uppercase tracking-[0.4em] mb-10 text-center md:text-left">01. Clinical & Diagnostics</h2>
+        <div class="mb-24">
+            <div class="max-w-3xl mb-10">
+                <h2 class="text-xs font-black text-blue-500 uppercase tracking-[0.4em] mb-4">01. Clinical & Diagnostics</h2>
+                <p class="text-slate-400 text-sm leading-relaxed">As AI moves from consultation to execution, these assets represent the central "decision-engine" brand for hospital workflows, pharmaceutical logistics, and real-time patient triage.</p>
+            </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-center">
-                <div class="domain-card p-8 rounded-2xl font-mono font-bold text-lg">ClinicalOrchestrator.com</div>
-                <div class="domain-card p-8 rounded-2xl font-mono font-bold text-lg">DiagnosisOrchestrator.com</div>
-                <div class="domain-card p-8 rounded-2xl font-mono font-bold text-lg">RxOrchestrator.com</div>
-                <div class="domain-card p-8 rounded-2xl font-mono font-bold text-lg">TriageOrchestrator.com</div>
+                <div class="domain-card p-6 rounded-2xl font-mono font-bold text-sm md:text-base break-all flex items-center justify-center min-h-[80px]">ClinicalOrchestrator.com</div>
+                <div class="domain-card p-6 rounded-2xl font-mono font-bold text-sm md:text-base break-all flex items-center justify-center min-h-[80px]">DiagnosisOrchestrator.com</div>
+                <div class="domain-card p-6 rounded-2xl font-mono font-bold text-sm md:text-base break-all flex items-center justify-center min-h-[80px]">RxOrchestrator.com</div>
+                <div class="domain-card p-6 rounded-2xl font-mono font-bold text-sm md:text-base break-all flex items-center justify-center min-h-[80px]">TriageOrchestrator.com</div>
             </div>
         </div>
 
         <div class="mb-28">
-            <h2 class="text-xs font-black text-green-500 uppercase tracking-[0.4em] mb-10 text-center md:text-left">02. Legal & Revenue Ops</h2>
+            <div class="max-w-3xl mb-10">
+                <h2 class="text-xs font-black text-green-500 uppercase tracking-[0.4em] mb-4">02. Legal & Revenue Ops</h2>
+                <p class="text-slate-400 text-sm leading-relaxed">Strategic naming for the automation of high-stakes environments. Designed for platforms managing multi-layer legal discovery, FinTech revenue cycles, and automated industrial compliance.</p>
+            </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 text-center">
-                <div class="domain-card p-8 rounded-2xl font-mono font-bold text-lg">LegalOrchestrator.com</div>
-                <div class="domain-card p-8 rounded-2xl font-mono font-bold text-lg">RevenueOrchestrator.com</div>
-                <div class="domain-card p-8 rounded-2xl font-mono font-bold text-lg">SafetyOrchestrator.com</div>
+                <div class="domain-card p-6 rounded-2xl font-mono font-bold text-sm md:text-base break-all flex items-center justify-center min-h-[80px]">LegalOrchestrator.com</div>
+                <div class="domain-card p-6 rounded-2xl font-mono font-bold text-sm md:text-base break-all flex items-center justify-center min-h-[80px]">RevenueOrchestrator.com</div>
+                <div class="domain-card p-6 rounded-2xl font-mono font-bold text-sm md:text-base break-all flex items-center justify-center min-h-[80px]">SafetyOrchestrator.com</div>
             </div>
         </div>
 
@@ -70,5 +75,11 @@
         </section>
 
     </main>
-        
-      
+
+    <footer class="py-16 text-center border-t border-slate-900">
+        <p class="text-slate-500 text-sm mb-2">Portfolio Lead: <span class="text-blue-400">ceall06@proton.me</span></p>
+        <p class="text-slate-700 text-[10px] uppercase tracking-[0.5em] px-4">Transactions secured via Escrow.com &bull; Verified Ownership</p>
+    </footer>
+
+</body>
+</html>
