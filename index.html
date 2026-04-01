@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Orchestrator Suite | Premium Domain Assets</title>
+    <title>The Orchestrator Suite | Strategic Domain Assets</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         html { scroll-behavior: smooth; }
         body { background-color: #05070a; color: #f1f5f9; }
         .hero-gradient { background: linear-gradient(135deg, #1e293b 0%, #05070a 100%); }
         .domain-card { background: #0f172a; border: 1px solid #1e293b; transition: all 0.2s ease; }
-        .domain-card:hover { border-color: #3b82f6; background: #161e2d; }
+        .domain-card:hover { border-color: #3b82f6; background: #161e2d; transform: translateY(-2px); }
     </style>
 </head>
 <body class="font-sans antialiased">
@@ -27,17 +27,18 @@
                 <a href="#inquire" class="px-10 py-4 bg-blue-600 text-white font-bold rounded-full hover:bg-blue-500 transition shadow-xl shadow-blue-500/20">
                     Acquisition Inquiry
                 </a>
-                <a href="prospectus.pdf" target="_blank" class="px-10 py-4 bg-slate-800 text-white font-bold rounded-full border border-slate-700 hover:bg-slate-700 transition">
-                    prospectus.pdf
+                <a href="./prospectus.pdf" target="_blank" class="px-10 py-4 bg-slate-800 text-white font-bold rounded-full border border-slate-700 hover:bg-slate-700 transition">
+                    Download Prospectus (PDF)
                 </a>
             </div>
         </div>
     </header>
 
     <main class="max-w-6xl mx-auto px-6 py-20">
+        
         <div class="mb-16">
             <h2 class="text-xs font-black text-blue-500 uppercase tracking-[0.4em] mb-8">01. Clinical & Diagnostics</h2>
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 text-center">
                 <div class="domain-card p-8 rounded-2xl font-mono font-bold text-lg">ClinicalOrchestrator.com</div>
                 <div class="domain-card p-8 rounded-2xl font-mono font-bold text-lg">DiagnosisOrchestrator.com</div>
                 <div class="domain-card p-8 rounded-2xl font-mono font-bold text-lg">RxOrchestrator.com</div>
@@ -47,7 +48,7 @@
 
         <div class="mb-24">
             <h2 class="text-xs font-black text-green-500 uppercase tracking-[0.4em] mb-8">02. Legal & Revenue Ops</h2>
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 text-center">
                 <div class="domain-card p-8 rounded-2xl font-mono font-bold text-lg">LegalOrchestrator.com</div>
                 <div class="domain-card p-8 rounded-2xl font-mono font-bold text-lg">RevenueOrchestrator.com</div>
                 <div class="domain-card p-8 rounded-2xl font-mono font-bold text-lg">SafetyOrchestrator.com</div>
@@ -55,22 +56,8 @@
         </div>
 
         <section id="inquire" class="max-w-xl mx-auto px-10 py-16 bg-slate-900 rounded-[3rem] border border-slate-800 shadow-2xl shadow-blue-900/10">
-            <h2 class="text-3xl font-bold text-center mb-2">Strategic Inquiry</h2>
+            <h2 class="text-3xl font-bold text-center mb-2 text-white">Strategic Inquiry</h2>
             <p class="text-slate-500 text-center mb-10 text-sm">Confidential discussions for the complete suite or individual verticals.</p>
             
             <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="space-y-5">
-                <input type="text" name="name" placeholder="Full Name / Corporation" required class="w-full p-4 bg-slate-800 rounded-xl border border-slate-700 text-white focus:border-blue-500 outline-none">
-                <input type="email" name="email" placeholder="Corporate Email Address" required class="w-full p-4 bg-slate-800 rounded-xl border border-slate-700 text-white focus:border-blue-500 outline-none">
-                <textarea name="message" placeholder="Acquisition terms or vertical interest..." required class="w-full p-4 bg-slate-800 rounded-xl border border-slate-700 text-white focus:border-blue-500 outline-none h-32"></textarea>
-                <button type="submit" class="w-full py-5 bg-blue-600 text-white font-black rounded-xl hover:bg-blue-500 transition uppercase tracking-widest">Send Secure Inquiry</button>
-            </form>
-        </section>
-    </main>
-
-    <footer class="py-16 text-center border-t border-slate-900">
-        <p class="text-slate-500 text-sm mb-2">Primary Portfolio Lead: <span class="text-blue-400">ceall06@proton.me</span></p>
-        <p class="text-slate-700 text-[10px] uppercase tracking-[0.5em]">Transactions via Escrow.com &bull; Verified Ownership</p>
-    </footer>
-
-</body>
-</html>
+                <input type
