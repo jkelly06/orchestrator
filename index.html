@@ -1,1 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Orchestrator Suite | Premium Digital Assets</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background-color: #05070a; color: #f1f5f9; }
+        .hero-gradient { background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); }
+        .domain-card { background: #111827; border: 1px solid #1f2937; transition: all 0.2s ease-in-out; }
+        .domain-card:hover { border-color: #3b82f6; background: #1e293b; transform: translateY(-2px); }
+    </style>
+</head>
+<body class="font-sans antialiased">
 
+    <header class="hero-gradient border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-6 py-20 text-center">
+            <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight mb-6 text-white">
+                The <span class="text-blue-500">Orchestrator</span> Suite
+            </h1>
+            <p class="text-xl md:text-2xl text-slate-400 max-w-3xl mx-auto leading-relaxed">
+                Strategic digital assets for <span class="text-white">AI-driven Enterprise Workflow Automation.</span>
+            </p>
+            <div class="mt-10 flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#inquire" class="px-8 py-4 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-500 transition shadow-lg shadow-blue-500/20">
+                    Acquisition Inquiry
+                </a>
+                <a href="prospectus.pdf" target="_blank" class="px-8 py-4 bg-slate-800 text-white font-bold rounded-lg border border-slate-700 hover:bg-slate-700 transition">
+                    View PDF Prospectus
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6 py-16">
+        <div class="mb-12">
+            <h2 class="text-sm font-bold text-slate-500 uppercase tracking-[0.3em] mb-6">Healthcare & Clinical Systems</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 text-center">
+                <div class="domain-card p-6 rounded-xl font-mono font-bold text-white">ClinicalOrchestrator.com</div>
+                <div class="domain-card p-6 rounded-xl font-mono font-bold text-white">DiagnosisOrchestrator.com</div>
+                <div class="domain-card p-6 rounded-xl font-mono font-bold text-white">RxOrchestrator.com</div>
+                <div class="domain-card p-6 rounded-xl font-mono font-bold text-white">TriageOrchestrator.com</div>
+            </div>
+        </div>
+
+        <div class="mb-20">
+            <h2 class="text-sm font-bold text-slate-500 uppercase tracking-[0.3em] mb-6">Legal & Revenue Operations</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 text-center">
+                <div class="domain-card p-6 rounded-xl font-mono font-bold text-white">LegalOrchestrator.com</div>
+                <div class="domain-card p-6 rounded-xl font-mono font-bold text-white">RevenueOrchestrator.com</div>
+                <div class="domain-card p-6 rounded-xl font-mono font-bold text-white">SafetyOrchestrator.com</div>
+            </div>
+        </div>
+
+        <section id="inquire" class="max-w-xl mx-auto px-8 py-12 bg-slate-900 rounded-3xl border border-slate-700">
+            <h2 class="text-3xl font-bold text-center mb-2">Secure Inquiry</h2>
+            <p class="text-slate-400 text-center mb-8">Confidential terms for the Orchestrator portfolio.</p>
+            
+            <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="space-y-4">
+                <input type="text" name="name" placeholder="Name / Organization" required class="w-full p-4 bg-slate-800 rounded-lg border border-slate-700 text-white outline-none focus:border-blue-500">
+                <input type="email" name="email" placeholder="Corporate Email" required class="w-full p-4 bg-slate-800 rounded-lg border border-slate-700 text-white outline-none focus:border-blue-500">
+                <textarea name="message" placeholder="Preliminary Inquiry Details..." class="w-full p-4 bg-slate-800 rounded-lg border border-slate-700 text-white outline-none focus:border-blue-500 h-32"></textarea>
+                <button type="submit" class="w-full py-4 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-500 transition">Request Terms</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="py-12 text-center border-t border-slate-900">
+        <p class="text-slate-500 text-sm">Portfolio Lead: <span class="text-blue-400">ceall06@proton.me</span></p>
+        <p class="text-slate-600 text-xs mt-2 uppercase tracking-widest">Secured via Escrow.com</p>
+    </footer>
+
+</body>
+</html>
